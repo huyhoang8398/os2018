@@ -1,4 +1,4 @@
-USTH ICT 2018 Operating System
+  USTH ICT 2018 Operating System
 =====================================
 
 Students are expected to:
@@ -9,6 +9,5 @@ Students are expected to:
 
 Student Info
 =======================
-
-* Name: *YourNameHere*
-* ID: *YourIdHere*
+Name: DO Duy Huy Hoang
+Student ID: USTHBI7-071
