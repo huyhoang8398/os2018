@@ -1,0 +1,946 @@
+1. echo hello world
+hello world
+
+2.date
+Fri Jan  5 10:47:18 +07 2018
+
+3. hostname
+huyhoan8398sMBP
+
+4. arch
+i386
+
+5. uname -a
+Darwin huyhoan8398sMBP 17.2.0 Darwin Kernel Version 17.2.0: Fri Sep 29 18:27:05 PDT 2017; root:xnu-4570.20.62~3/RELEASE_X86_64 x86_64
+
+6.dmesg
+me.
+inputEAPOLFrame: decrypting key data
+inputEAPOLFrame: Received message 3 of 4
+process3of4: Performing IE check.
+process3of4: sending replyPacket ( len = 113 ).
+process3of4: received pairwise GTK
+ptkThread: Sleeping!
+ptkThread: Sleeping!
+ptkThread: Installing PTK!
+PTK: 99 7e 38 b7 58 6f 02 63 59 65 e6 f0 44 88 61 15 ARPT: 7480.025616: SetCryptoKey() bcmerr[0]:  ea[00:ec:0a:1d:cc:e8]  T: keyIdx[0] keylen[16] flags[0x0002] algo[4] rxiv(hi[0x00000000] lo[0x0000])
+ptkThread: Installing GTK!
+installGTK: setting cipher key (flags = 0x0)
+GTK-RSC: 00 00 00 00 00 00 GTK: 9e 95 1c 48 dc 51 59 f7 e6 e5 85 0a 23 58 29 26 AirPort: RSN handshake complete on en0
+ARPT: 7480.025769: SetCryptoKey() bcmerr[0]:  ea[00:00:00:00:00:00]  R: keyIdx[1] keylen[16] flags[0x0000] algo[4] rxiv(hi[0x00000000] lo[0x0000])
+installGTK: GTK installed
+Unexpected payload found for message 9, dataLen 0
+Setting BTCoex Config: enable_2G:1, profile_2g:0, enable_5G:1, profile_5G:0
+en0: BSSID changed to 00:ec:0a:1d:cc:e8
+en0: channel changed to 11
+Starting poll type 4
+Restarting poll type 4
+Command 0x2 completed. inCount: 2 data:0x6Command 0x1 completed. inCount: 2 data:0x1101Command 0x16 completed. inCount: 2 data:0xc0Command 0xa completed. inCount: 2 data:0xfa94Command 0xb completed. inCount: 2 data:0xfa61Command 0x12 completed. inCount: 2 data:0x127Command 0x13 completed. inCount: 2 data:0xffffCommand 0xf completed. inCount: 2 data:0x1babCommand 0x10 completed. inCount: 2 data:0x1f5eSmartBattery: finished polling type 4
+en0: DAD complete for fe80:5::c67:2b97:4bb5:6aa5 - no duplicates found.
+com.apple.p2p: IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from SUSPENDED to AUTO
+com.apple.p2p: IO80211AWDLPeerManager::interfaceStateChange Infra State Changed, Channel = 11
+com.apple.p2p: AWDL is off
+Google Chrome He[15386] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b158201972583. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[15387] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b158201972a83. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Starting poll type 4
+Restarting poll type 4
+Command 0x2 completed. inCount: 2 data:0x6Command 0x1 completed. inCount: 2 data:0x1101Command 0x16 completed. inCount: 2 data:0xc0Command 0xa completed. inCount: 2 data:0xf89eCommand 0xb completed. inCount: 2 data:0xfa62Command 0x12 completed. inCount: 2 data:0x127Command 0x13 completed. inCount: 2 data:0xffffCommand 0xf completed. inCount: 2 data:0x1b94Command 0x10 completed. inCount: 2 data:0x1f5eSmartBattery: finished polling type 4
+Google Chrome He[15593] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b1581f557f883. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[15596] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b1581f557fc83. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[15600] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b1581f557f783. While not abnormal for debuggers, this increases system memory footprint until the target exits.
++ IOAudioEngineUserClient::externalMethod, selector=0x0,   arg0 0x0, arg1 0x10c20b000, arg2 0x8010 arg3 0x73
+  scalarInputCount=0x4  structureInputSize 0x0, scalarOutputCount 0x0, structureOutputSize 0x0
++ IOAudioEngineUserClient::registerBuffer64 0x0 0x10c20b000 0x8010 0x73
++ IOAudioEngineUserClient::safeRegisterClientBuffer64 <ptr>
++ IOAudioEngineUserClient[<ptr>]::registerClientBuffer64  (<ptr>[1], 0x10c20b000, 0x8010, 0x73)
+  null clientBufferSetList
+  did not find clientBufferSetList for ID 0x73
+  clientBuffer->mAudioClientBuffer32.sourceBuffer before offset: <ptr>, offset size: 16
+  clientBuffer->mAudioClientBuffer32.sourceBuffer after offset: <ptr>
+  null clientBufferSetList
+  did not find clientBufferSetList for ID 0x73
+  creating new IOAudioClientBufferSet
+  output
+  !isOnline
+- IOAudioEngineUserClient::registerClientBuffer64() result 0x0
+- IOAudioEngineUserClient::safeRegisterClientBuffer64  returns 0x0
+- IOAudioEngineUserClient::registerBuffer64 0x0 0x10c20b000 0x8010 0x73 returns 0x0
+- IOAudioEngineUserClient::externalMethod returns 0x0
++ IOAudioEngineUserClient::externalMethod, selector=0x3,   arg0 0x0, arg1 0x0, arg2 0x0 arg3 0x0
+  scalarInputCount=0x0  structureInputSize 0x0, scalarOutputCount 0x0, structureOutputSize 0x0
++ IOAudioEngineUserClient[<ptr>]::startClient() - 0
+  audioEngine && !isInactive(). State = 0
+  audioEngine->getState() != kIOAudioEnginePaused
++- IOAudioEngineUserClient[<ptr>]::setOnline(1)
+  !isOnline() setting online
++ IOAudioEngine[<ptr>]::startClient(<ptr>)
++ IOAudioEngine[<ptr>]::incrementActiveUserClients() - 0
++ IOAudioEngine[<ptr>]::startAudioEngine(state = 0)
++- IOAudioDevice[<ptr>]::flushAudioControls()
++ IOAudioDevice[<ptr>]::protectedCompletePowerStateChange() - current = 1 - pending = 2
+- IOAudioDevice[<ptr>]::protectedCompletePowerStateChange() - current = 2 - pending = 2 returns 0x0
++ IOAudioDevice[<ptr>]::protectedCompletePowerStateChange() - current = 2 - pending = 2
+- IOAudioDevice[<ptr>]::protectedCompletePowerStateChange() - current = 2 - pending = 2 returns 0x0
++ IOAudioDevice[<ptr>]::audioEngineStarting() - numRunningAudioEngines = 0
+- IOAudioDevice[<ptr>]::audioEngineStarting() - numRunningAudioEngines = 1
++- IOAudioEngine[<ptr>]::resetStatusBuffer()
++-IOAudioEngine[<ptr>]::setState(0x1. oldState=0)
+- IOAudioEngine[<ptr>]::getTimerInterval()
+- IOAudioEngine[<ptr>]::startAudioEngine() returns 0x0
+- IOAudioEngine[<ptr>]::incrementActiveUserClients() - 1 returns 0
+- IOAudioEngine[<ptr>]::startClient(<ptr>) returns 0x0
+  engine started
+  bufferSet <ptr>
+  output clientBuffer <ptr>
++ IOAudioStream[<ptr>]::addClient(<ptr>)
+- IOAudioStream[<ptr>]::addClient(<ptr>) returns 0x0
+- IOAudioEngineUserClient[<ptr>]::startClient() - 1 returns 0x0
+- IOAudioEngineUserClient::externalMethod returns 0x0
++ IOAudioEngineUserClient::externalMethod, selector=0x4,   arg0 0x0, arg1 0x0, arg2 0x0 arg3 0x0
+  scalarInputCount=0x0  structureInputSize 0x0, scalarOutputCount 0x0, structureOutputSize 0x0
++ IOAudioStream[<ptr>]::removeClient(<ptr>)
++-IOAudioStream[<ptr>]::safeLogError kErrorLogDumpCounters mStreamErrorCountsUpdated=0
+- IOAudioStream[<ptr>]::removeClient(<ptr>)
++- IOAudioEngine[<ptr>]::decrementActiveUserClients() - 0 returns 0x0
++- IOAudioEngine[<ptr>]::stopClient(<ptr>) returns 0x0
++- IOAudioEngineUserClient[<ptr>]::setOnline(0)
+- IOAudioEngineUserClient::externalMethod returns 0x0
++ IOAudioEngineUserClient::externalMethod, selector=0x1,   arg0 0x10C20B000, arg1 0x73, arg2 0x0 arg3 0x0
+  scalarInputCount=0x2  structureInputSize 0x0, scalarOutputCount 0x0, structureOutputSize 0x0
++ IOAudioEngineUserClient[<ptr>]::unregisterClientBuffer64(0x<ptr>, 0x73)
+  searching for sourceBuffer 0x10c20b000
++- IOAudioEngineUserClient[<ptr>]::removeBufferSet(<ptr>)
++ IOAudioStream[<ptr>]::removeClient(<ptr>)
++-IOAudioStream[<ptr>]::safeLogError kErrorLogDumpCounters mStreamErrorCountsUpdated=0
+- IOAudioStream[<ptr>]::removeClient(<ptr>)
+- IOAudioEngineUserClient::unregisterClientBuffer64 no sourcebuffer returns 0x0
+- IOAudioEngineUserClient::externalMethod returns 0x0
++ IOAudioEngine[<ptr>]::stopAudioEngine()
++-IOAudioEngine[<ptr>]::setState(0x0. oldState=0x1)
++ IOAudioDevice[<ptr>]::setIdleAudioSleepTime: sleepDelay = 66fc23ac00
++ IOAudioDevice[<ptr>]::scheduleIdleAudioSleep: idleSleepDelayTime = 66fc23ac00
+- IOAudioDevice[<ptr>]::scheduleIdleAudioSleep: idleSleepDelayTime = 66fc23ac00
+- IOAudioDevice[<ptr>]::setIdleAudioSleepTime: sleepDelay = 66fc23ac00
++ IOAudioDevice[<ptr>]::audioEngineStopped() - numRunningAudioEngines = 1
++ IOAudioDevice[<ptr>]::scheduleIdleAudioSleep: idleSleepDelayTime = 66fc23ac00
+- IOAudioDevice[<ptr>]::scheduleIdleAudioSleep: idleSleepDelayTime = 66fc23ac00
+- IOAudioDevice[<ptr>]::audioEngineStopped() - numRunningAudioEngines = 0
+- IOAudioEngine[<ptr>]::stopAudioEngine() returns 0x0
++-IOAudioEngine[<ptr>]::setState(0x0. oldState=0)
+Google Chrome He[15602] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b15820d0e9383. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[15605] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b1581f1e18483. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[15606] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b1581f1e17883. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[15615] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b15820e010c83. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[15618] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b1581f360bb83. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[15620] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b1581f1c23083. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Starting poll type 4
+Restarting poll type 4
+Command 0x2 completed. inCount: 2 data:0x6Command 0x1 completed. inCount: 2 data:0x1101Command 0x16 completed. inCount: 2 data:0xc0Command 0xa completed. inCount: 2 data:0xf786Command 0xb completed. inCount: 2 data:0xf9a3Command 0x12 completed. inCount: 2 data:0x103Command 0x13 completed. inCount: 2 data:0xffffCommand 0xf completed. inCount: 2 data:0x1b72Command 0x10 completed. inCount: 2 data:0x1f54SmartBattery: finished polling type 4
+ARPT: 7606.436595: txpkt (MPDU) Complete
+ARPT: 7606.436622: FrameID: 0x2203   Seq: 0x0d26   TxStatus: 0x0103
+ARPT: 7606.436691: ACK 0 IM 0 PM 0 Suppr 0 (None)
+ARPT: 7606.436699: CNT(rts_tx)=0 CNT(frag_tx_cnt)=15 CNT(cts_rx_cnt)=0
+ARPT: 7606.436708: DequeueTime: 0x00005908 LastTxTime: 0x0e9f7655 PHYTxErr:   0x0000 RxAckRSSI: 0x0082 RxAckSQ: 0x00ff
+ARPT: 7606.436739: Raw[0]    1 Valid
+ARPT: 7606.436749: [2]    0 IM
+ARPT: 7606.436755: [3]    0 PM
+ARPT: 7606.436761: [7-4]  0 Suppr
+ARPT: 7606.436767: [14:8] 1 Ncons
+ARPT: 7606.436788: [15]   0 Acked
+ARPT: 7606.436796: txpktpend AC_BK 0 AC_BE 1 AC_VI 0 AC_VO 2 BCMC 0 ATIM 0
+Google Chrome He[15621] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b1581f557f783. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[15622] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b1581f557fc83. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[15623] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b15820d0e8b83. While not abnormal for debuggers, this increases system memory footprint until the target exits.
++ IOAudioDevice[<ptr>]idleAudioSleepHandlerTimer: pendingPowerState = 1, idleSleepDelayTime = 66fc23ac00
++ IOAudioDevice[<ptr>]::initiatePowerStateChange(0) - current = 2 - pending = 1
++ IOAudioDevice[<ptr>]::protectedCompletePowerStateChange() - current = 2 - pending = 1
+- IOAudioDevice[<ptr>]::protectedCompletePowerStateChange() - current = 1 - pending = 1 returns 0x0
++ IOAudioDevice[<ptr>]::protectedCompletePowerStateChange() - current = 1 - pending = 1
+- IOAudioDevice[<ptr>]::protectedCompletePowerStateChange() - current = 1 - pending = 1 returns 0x0
+- IOAudioDevice[<ptr>]::initiatePowerStateChange(0) - current = 1 - pending = 1 returns 0x0
+- IOAudioDevice[<ptr>]idleAudioSleepHandlerTimer: pendingPowerState = 1, idleSleepDelayTime = 66fc23ac00
+Google Chrome He[15634] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b1581f1e17883. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Starting poll type 4
+Restarting poll type 4
+Command 0x2 completed. inCount: 2 data:0x6Command 0x1 completed. inCount: 2 data:0x1101Command 0x16 completed. inCount: 2 data:0xc0Command 0xa completed. inCount: 2 data:0xfb85Command 0xb completed. inCount: 2 data:0xfb45Command 0x12 completed. inCount: 2 data:0x15cCommand 0x13 completed. inCount: 2 data:0xffffCommand 0xf completed. inCount: 2 data:0x1b77Command 0x10 completed. inCount: 2 data:0x1f6eSmartBattery: finished polling type 4
+keybag_operation:239: read APFS/container keybag (v2, 1 keys, 192 bytes)
+Google Chrome He[15804] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b1581f1e18383. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[15805] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b15820e010c83. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[15806] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b15820e010783. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[15822] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b1581f1e17783. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Google Chrome He[15823] triggered unnest of range 0x7fff30600000->0x7fff30800000 of DYLD shared region in VM map 0x781b1581f1e18483. While not abnormal for debuggers, this increases system memory footprint until the target exits.
+Starting poll type 4
+Restarting poll type 4
+Command 0x2 completed. inCount: 2 data:0x6Command 0x1 completed. inCount: 2 data:0x1101Command 0x16 completed. inCount: 2 data:0xc0Command 0xa completed. inCount: 2 data:0xfb2fCommand 0xb completed. inCount: 2 data:0xfa3aCommand 0x12 completed. inCount: 2 data:0x11bCommand 0x13 completed. inCount: 2 data:0xffffCommand 0xf completed. inCount: 2 data:0x1b41Command 0x10 completed. inCount: 2 data:0x1f52SmartBattery: finished polling type 4
+OSUnserializeXML: syntax error near line 1
+failed to parse entitlements for ACCFinderSync[15911]: OSUnserializeXML: syntax error near line 1
+
+Starting poll type 4
+Restarting poll type 4
+Command 0x2 completed. inCount: 2 data:0x6Command 0x1 completed. inCount: 2 data:0x1101Command 0x16 completed. inCount: 2 data:0xc0Command 0xa completed. inCount: 2 data:0xfb3aCommand 0xb completed. inCount: 2 data:0xf9e6Command 0x12 completed. inCount: 2 data:0x10bCommand 0x13 completed. inCount: 2 data:0xffffCommand 0xf completed. inCount: 2 data:0x1b1eCommand 0x10 completed. inCount: 2 data:0x1f4dSmartBattery: finished polling type 4
+Starting poll type 4
+Restarting poll type 4
+Command 0x2 completed. inCount: 2 data:0x6Command 0x1 completed. inCount: 2 data:0x1101Command 0x16 completed. inCount: 2 data:0xc0Command 0xa completed. inCount: 2 data:0xfafbCommand 0xb completed. inCount: 2 data:0xfb00Command 0x12 completed. inCount: 2 data:0x146Command 0x13 completed. inCount: 2 data:0xffffCommand 0xf completed. inCount: 2 data:0x1b25Command 0x10 completed. inCount: 2 data:0x1f69SmartBattery: finished polling type 4
+Starting poll type 4
+Restarting poll type 4
+Command 0x2 completed. inCount: 2 data:0x6Command 0x1 completed. inCount: 2 data:0x1101Command 0x16 completed. inCount: 2 data:0xc0Command 0xa completed. inCount: 2 data:0xfb27Command 0xb completed. inCount: 2 data:0xfb03Command 0x12 completed. inCount: 2 data:0x145Command 0x13 completed. inCount: 2 data:0xffffCommand 0xf completed. inCount: 2 data:0x1b0fCommand 0x10 completed. inCount: 2 data:0x1f69SmartBattery: finished polling type 4
+keybag_operation:239: read APFS/container keybag (v2, 1 keys, 192 bytes)
+
+7. uptime
+10:49  up 19:10, 5 users, load averages: 1.99 1.91 2.00
+
+8. who am i
+huyhoang8398 ttys003  Jan  5 10:46
+
+9. whoami
+root
+
+10. who
+huyhoang8398 console  Jan  4 15:41
+huyhoang8398 ttys000  Jan  5 10:39
+huyhoang8398 ttys001  Jan  5 10:39
+huyhoang8398 ttys002  Jan  5 10:44
+huyhoang8398 ttys003  Jan  5 10:46
+
+11. id
+uid=0(root) gid=0(wheel) groups=0(wheel),1(daemon),2(kmem),3(sys),4(tty),5(operator),8(procview),9(procmod),12(everyone),20(staff),29(certusers),61(localaccounts),80(admin),701(com.apple.sharepoint.group.1),33(_appstore),98(_lpadmin),100(_lpoperator),204(_developer),250(_analyticsusers),395(com.apple.access_ftp),398(com.apple.access_screensharing),399(com.apple.access_ssh)
+
+12.last
+huyhoang8398  ttys003                   Fri Jan  5 10:46   still logged in
+huyhoang8398  ttys002                   Fri Jan  5 10:44   still logged in
+huyhoang8398  ttys001                   Fri Jan  5 10:39   still logged in
+huyhoang8398  ttys000                   Fri Jan  5 10:39   still logged in
+huyhoang8398  ttys000                   Fri Jan  5 09:58 - 09:58  (00:00)
+huyhoang8398  ttys000                   Fri Jan  5 09:57 - 09:57  (00:00)
+huyhoang8398  console                   Thu Jan  4 15:41   still logged in
+reboot    ~                         Thu Jan  4 15:39
+shutdown  ~                         Thu Jan  4 15:39
+huyhoang8398  ttys000                   Thu Jan  4 11:30 - 11:30  (00:00)
+huyhoang8398  console                   Thu Jan  4 10:48 - 15:39  (04:51)
+reboot    ~                         Thu Jan  4 10:47
+shutdown  ~                         Thu Jan  4 09:28
+huyhoang8398  console                   Thu Jan  4 09:21 - 09:28  (00:06)
+reboot    ~                         Thu Jan  4 09:21
+shutdown  ~                         Thu Jan  4 02:08
+huyhoang8398  ttys000                   Wed Jan  3 20:26 - 20:26  (00:00)
+huyhoang8398  console                   Wed Jan  3 18:46 - 02:08  (07:22)
+reboot    ~                         Wed Jan  3 18:46
+shutdown  ~                         Wed Jan  3 18:35
+huyhoang8398  console                   Wed Jan  3 18:29 - 18:35  (00:06)
+reboot    ~                         Wed Jan  3 18:29
+shutdown  ~                         Wed Jan  3 13:02
+huyhoang8398  console                   Wed Jan  3 12:50 - 13:02  (00:11)
+reboot    ~                         Wed Jan  3 12:50
+shutdown  ~                         Wed Jan  3 12:50
+huyhoang8398  ttys000                   Wed Jan  3 11:24 - 11:24  (00:00)
+huyhoang8398  console                   Wed Jan  3 10:56 - 12:50  (01:53)
+reboot    ~                         Wed Jan  3 10:55
+shutdown  ~                         Wed Jan  3 10:55
+huyhoang8398  console                   Wed Jan  3 10:54 - 10:55  (00:01)
+reboot    ~                         Wed Jan  3 10:53
+shutdown  ~                         Wed Jan  3 09:21
+huyhoang8398  console                   Wed Jan  3 08:41 - 09:21  (00:40)
+reboot    ~                         Wed Jan  3 08:41
+shutdown  ~                         Tue Jan  2 21:26
+huyhoang8398  ttys000                   Tue Jan  2 15:59 - 15:59  (00:00)
+huyhoang8398  ttys000                   Tue Jan  2 14:15 - 14:15  (00:00)
+huyhoang8398  ttys000                   Tue Jan  2 13:43 - 13:43  (00:00)
+huyhoang8398  ttys000                   Tue Jan  2 10:21 - 10:21  (00:00)
+huyhoang8398  console                   Mon Jan  1 12:27 - 21:26 (1+08:58)
+reboot    ~                         Mon Jan  1 12:27
+shutdown  ~                         Mon Jan  1 12:26
+huyhoang8398  console                   Mon Jan  1 11:49 - 12:26  (00:37)
+reboot    ~                         Mon Jan  1 11:49
+shutdown  ~                         Mon Jan  1 00:51
+huyhoang8398  console                   Sat Dec 30 10:19 - 00:51 (1+14:32)
+reboot    ~                         Sat Dec 30 10:18
+huyhoang8398  console                   Sat Dec 30 08:38 - 09:34  (00:56)
+reboot    ~                         Sat Dec 30 08:36
+shutdown  ~                         Fri Dec 29 22:38
+huyhoang8398  ttys001                   Fri Dec 29 21:18 - 21:18  (00:00)
+huyhoang8398  ttys000                   Fri Dec 29 21:13 - 21:13  (00:00)
+huyhoang8398  console                   Fri Dec 29 21:08 - 22:38  (01:29)
+reboot    ~                         Fri Dec 29 21:08
+shutdown  ~                         Fri Dec 29 08:29
+huyhoang8398  console                   Fri Dec 29 07:45 - 08:29  (00:44)
+reboot    ~                         Fri Dec 29 07:44
+shutdown  ~                         Thu Dec 28 23:54
+huyhoang8398  ttys000                   Thu Dec 28 22:31 - 22:31  (00:00)
+huyhoang8398  ttys001                   Thu Dec 28 22:27 - 22:27  (00:00)
+huyhoang8398  ttys000                   Thu Dec 28 22:25 - 22:25  (00:00)
+huyhoang8398  ttys000                   Thu Dec 28 22:19 - 22:19  (00:00)
+huyhoang8398  ttys002                   Thu Dec 28 21:19 - 21:19  (00:00)
+huyhoang8398  ttys001                   Thu Dec 28 20:12 - 20:12  (00:00)
+huyhoang8398  ttys000                   Thu Dec 28 20:12 - 20:12  (00:00)
+huyhoang8398  ttys001                   Thu Dec 28 20:12 - 20:12  (00:00)
+huyhoang8398  ttys000                   Thu Dec 28 20:10 - 20:10  (00:00)
+huyhoang8398  ttys000                   Thu Dec 28 17:04 - 17:04  (00:00)
+huyhoang8398  console                   Thu Dec 28 17:02 - 23:54  (06:51)
+huyhoang8398  ttys000                   Thu Dec 28 16:26 - 16:26  (00:00)
+huyhoang8398  ttys000                   Thu Dec 28 16:26 - 16:26  (00:00)
+huyhoang8398  ttys000                   Thu Dec 28 11:04 - 11:04  (00:00)
+huyhoang8398  ttys001                   Thu Dec 28 10:51 - 10:51  (00:00)
+huyhoang8398  ttys000                   Thu Dec 28 10:47 - 10:47  (00:00)
+huyhoang8398  ttys000                   Thu Dec 28 10:22 - 10:22  (00:00)
+huyhoang8398  console                   Thu Dec 28 09:25 - 17:01  (07:35)
+reboot    ~                         Thu Dec 28 09:25
+shutdown  ~                         Wed Dec 27 23:41
+huyhoang8398  ttys000                   Wed Dec 27 20:20 - 20:20  (00:00)
+huyhoang8398  console                   Wed Dec 27 19:12 - 23:41  (04:28)
+reboot    ~                         Wed Dec 27 19:12
+shutdown  ~                         Tue Dec 26 23:47
+huyhoang8398  ttys000                   Tue Dec 26 23:36 - 23:36  (00:00)
+huyhoang8398  ttys000                   Tue Dec 26 22:52 - 22:52  (00:00)
+huyhoang8398  console                   Tue Dec 26 22:21 - 23:47  (01:25)
+reboot    ~                         Tue Dec 26 22:21
+shutdown  ~                         Tue Dec 26 22:21
+huyhoang8398  console                   Tue Dec 26 20:49 - 22:21  (01:32)
+reboot    ~                         Tue Dec 26 20:48
+shutdown  ~                         Mon Dec 25 21:26
+huyhoang8398  console                   Mon Dec 25 20:04 - 21:26  (01:22)
+reboot    ~                         Mon Dec 25 20:04
+shutdown  ~                         Mon Dec 25 17:34
+huyhoang8398  ttys000                   Mon Dec 25 16:53 - 16:53  (00:00)
+huyhoang8398  console                   Mon Dec 25 16:53 - 17:34  (00:40)
+reboot    ~                         Mon Dec 25 16:53
+shutdown  ~                         Mon Dec 25 16:53
+huyhoang8398  ttys002                   Mon Dec 25 16:51 - 16:51  (00:00)
+huyhoang8398  ttys001                   Mon Dec 25 16:51 - 16:51  (00:00)
+huyhoang8398  ttys000                   Mon Dec 25 16:51 - shutdown  (00:01)
+huyhoang8398  ttys000                   Mon Dec 25 16:51 - 16:51  (00:00)
+huyhoang8398  ttys000                   Mon Dec 25 11:11 - 11:11  (00:00)
+huyhoang8398  console                   Mon Dec 25 10:23 - shutdown  (06:29)
+reboot    ~                         Mon Dec 25 10:23
+shutdown  ~                         Sun Dec 24 23:39
+huyhoang8398  ttys000                   Sun Dec 24 20:13 - 20:13  (00:00)
+huyhoang8398  console                   Sun Dec 24 07:25 - 23:39  (16:13)
+reboot    ~                         Sun Dec 24 07:24
+shutdown  ~                         Sat Dec 23 08:06
+huyhoang8398  console                   Fri Dec 22 18:55 - 08:06  (13:10)
+reboot    ~                         Fri Dec 22 18:55
+shutdown  ~                         Fri Dec 22 16:01
+huyhoang8398  ttys000                   Fri Dec 22 15:32 - 15:32  (00:00)
+huyhoang8398  console                   Fri Dec 22 14:19 - 16:01  (01:42)
+reboot    ~                         Fri Dec 22 14:19
+shutdown  ~                         Fri Dec 22 14:11
+huyhoang8398  ttys000                   Fri Dec 22 13:43 - 13:43  (00:00)
+huyhoang8398  ttys000                   Fri Dec 22 13:33 - 13:33  (00:00)
+huyhoang8398  ttys001                   Fri Dec 22 10:56 - 10:56  (00:00)
+huyhoang8398  ttys000                   Fri Dec 22 10:52 - 10:52  (00:00)
+huyhoang8398  console                   Fri Dec 22 09:24 - 14:11  (04:47)
+reboot    ~                         Fri Dec 22 09:23
+shutdown  ~                         Fri Dec 22 00:23
+huyhoang8398  ttys000                   Thu Dec 21 22:57 - 22:57  (00:00)
+huyhoang8398  ttys000                   Thu Dec 21 21:09 - 21:09  (00:00)
+huyhoang8398  console                   Thu Dec 21 20:18 - 00:23  (04:04)
+reboot    ~                         Thu Dec 21 20:18
+shutdown  ~                         Thu Dec 21 20:14
+huyhoang8398  ttys000                   Thu Dec 21 19:56 - 19:56  (00:00)
+huyhoang8398  ttys000                   Thu Dec 21 11:31 - 11:31  (00:00)
+huyhoang8398  ttys000                   Thu Dec 21 11:15 - 11:15  (00:00)
+huyhoang8398  ttys000                   Thu Dec 21 08:56 - 08:56  (00:00)
+huyhoang8398  console                   Thu Dec 21 08:52 - 20:14  (11:22)
+reboot    ~                         Thu Dec 21 08:51
+shutdown  ~                         Thu Dec 21 08:51
+reboot    ~                         Thu Dec 21 08:50
+shutdown  ~                         Wed Nov 29 23:30
+huyhoang8398  ttys000                   Wed Nov 29 21:24 - 21:24  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 21:16 - 21:16  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 20:56 - 20:56  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 20:44 - 20:44  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 20:13 - 20:13  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 20:02 - 20:02  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 19:59 - 19:59  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 19:43 - 19:43  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 19:37 - 19:37  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 19:31 - 19:31  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 19:26 - 19:26  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 19:16 - 19:16  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 19:06 - 19:06  (00:00)
+huyhoang8398  ttys001                   Wed Nov 29 19:04 - 19:04  (00:00)
+huyhoang8398  ttys001                   Wed Nov 29 19:04 - 19:04  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 19:03 - 19:03  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 19:03 - 19:03  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 19:03 - 19:03  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 19:01 - 19:01  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 16:42 - 16:42  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 16:29 - 16:29  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 15:53 - 15:53  (00:00)
+huyhoang8398  console                   Wed Nov 29 15:47 - 23:30  (07:42)
+reboot    ~                         Wed Nov 29 15:47
+shutdown  ~                         Wed Nov 29 15:15
+huyhoang8398  ttys000                   Wed Nov 29 14:58 - 14:58  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 14:42 - 14:42  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 14:40 - 14:40  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 13:41 - 13:41  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 11:17 - 11:17  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 10:26 - 10:26  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 09:56 - 09:56  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 09:51 - 09:51  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 09:05 - 09:05  (00:00)
+huyhoang8398  ttys001                   Wed Nov 29 09:00 - 09:00  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 09:00 - 09:00  (00:00)
+huyhoang8398  ttys001                   Wed Nov 29 09:00 - 09:00  (00:00)
+huyhoang8398  ttys002                   Wed Nov 29 09:00 - 09:00  (00:00)
+huyhoang8398  ttys001                   Wed Nov 29 09:00 - 09:00  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 09:00 - 09:00  (00:00)
+huyhoang8398  ttys002                   Wed Nov 29 09:00 - 09:00  (00:00)
+huyhoang8398  ttys001                   Wed Nov 29 08:59 - 08:59  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 08:58 - 08:58  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 08:58 - 08:58  (00:00)
+huyhoang8398  ttys001                   Wed Nov 29 08:57 - 08:57  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 08:57 - 08:57  (00:00)
+huyhoang8398  ttys002                   Wed Nov 29 08:57 - 08:57  (00:00)
+huyhoang8398  ttys001                   Wed Nov 29 08:57 - 08:57  (00:00)
+huyhoang8398  ttys001                   Wed Nov 29 08:57 - 08:57  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 08:56 - 08:56  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 08:53 - 08:53  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 08:53 - 08:53  (00:00)
+root      ttys000                   Wed Nov 29 08:46 - 08:46  (00:00)
+root      console                   Wed Nov 29 08:46 - shutdown  (06:29)
+huyhoang8398  ttys000                   Wed Nov 29 08:43 - 08:43  (00:00)
+huyhoang8398  console                   Wed Nov 29 08:31 - 15:15  (06:43)
+reboot    ~                         Wed Nov 29 08:31
+shutdown  ~                         Wed Nov 29 02:05
+huyhoang8398  ttys000                   Wed Nov 29 00:42 - 00:42  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 00:42 - 00:42  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 00:42 - 00:42  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 00:38 - 00:38  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 00:38 - 00:38  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 00:35 - 00:35  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 00:33 - 00:33  (00:00)
+huyhoang8398  ttys000                   Wed Nov 29 00:33 - 00:33  (00:00)
+huyhoang8398  console                   Wed Nov 29 00:30 - 02:05  (01:35)
+reboot    ~                         Wed Nov 29 00:29
+shutdown  ~                         Wed Nov 29 00:29
+huyhoang8398  ttys000                   Wed Nov 29 00:03 - 00:03  (00:00)
+huyhoang8398  ttys001                   Tue Nov 28 23:35 - 23:35  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 23:35 - 23:35  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 23:35 - 23:35  (00:00)
+huyhoang8398  ttys001                   Tue Nov 28 23:33 - 23:33  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 23:32 - 23:32  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 23:31 - 23:31  (00:00)
+huyhoang8398  ttys001                   Tue Nov 28 23:24 - 23:24  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 23:24 - 23:24  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 23:18 - 23:18  (00:00)
+huyhoang8398  console                   Tue Nov 28 23:15 - 00:29  (01:14)
+reboot    ~                         Tue Nov 28 23:14
+shutdown  ~                         Tue Nov 28 22:26
+huyhoang8398  ttys000                   Tue Nov 28 15:10 - 15:10  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 14:51 - 14:51  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 14:14 - 14:14  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 14:11 - 14:11  (00:00)
+huyhoang8398  ttys001                   Tue Nov 28 14:07 - 14:07  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 14:06 - 14:06  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 13:57 - 13:57  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 13:56 - 13:56  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 13:30 - 13:30  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 13:24 - 13:24  (00:00)
+huyhoang8398  ttys001                   Tue Nov 28 13:19 - 13:19  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 13:19 - 13:19  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 12:48 - 12:48  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 12:44 - 12:44  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 12:23 - 12:23  (00:00)
+huyhoang8398  ttys003                   Tue Nov 28 12:21 - 12:21  (00:00)
+huyhoang8398  ttys002                   Tue Nov 28 12:21 - 12:21  (00:00)
+huyhoang8398  ttys001                   Tue Nov 28 12:21 - 12:21  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 12:11 - 12:11  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 10:48 - 10:48  (00:00)
+huyhoang8398  ttys001                   Tue Nov 28 10:41 - 10:41  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 10:41 - 10:41  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 10:06 - 10:06  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 09:56 - 09:56  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 09:44 - 09:44  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 09:44 - 09:44  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 09:43 - 09:43  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 09:42 - 09:42  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 09:42 - 09:42  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 09:40 - 09:40  (00:00)
+huyhoang8398  ttys003                   Tue Nov 28 09:27 - 09:27  (00:00)
+huyhoang8398  ttys002                   Tue Nov 28 09:27 - 09:27  (00:00)
+huyhoang8398  ttys001                   Tue Nov 28 09:27 - 09:27  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 09:27 - 09:27  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 09:25 - 09:25  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 09:23 - 09:23  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 09:17 - 09:17  (00:00)
+huyhoang8398  ttys000                   Tue Nov 28 09:10 - 09:10  (00:00)
+huyhoang8398  console                   Tue Nov 28 09:07 - 22:26  (13:19)
+reboot    ~                         Tue Nov 28 09:07
+huyhoang8398  ttys000                   Mon Nov 27 20:32 - 20:32  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 20:07 - 20:07  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 20:05 - 20:05  (00:00)
+huyhoang8398  console                   Mon Nov 27 18:40 - 00:55  (06:14)
+reboot    ~                         Mon Nov 27 18:40
+shutdown  ~                         Mon Nov 27 15:20
+huyhoang8398  ttys000                   Mon Nov 27 15:13 - 15:13  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 15:10 - 15:10  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 15:06 - 15:06  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 15:03 - 15:03  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 15:03 - 15:03  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 15:01 - 15:01  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 14:58 - 14:58  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 14:56 - 14:56  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 14:55 - 14:55  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 14:52 - 14:52  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 14:49 - 14:49  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 14:48 - 14:48  (00:00)
+huyhoang8398  console                   Mon Nov 27 14:45 - 15:20  (00:35)
+reboot    ~                         Mon Nov 27 14:44
+shutdown  ~                         Mon Nov 27 14:44
+root      ttys000                   Mon Nov 27 14:44 - shutdown  (00:00)
+root      ttys000                   Mon Nov 27 14:43 - 14:43  (00:00)
+root      console                   Mon Nov 27 14:43 - shutdown  (00:01)
+huyhoang8398  ttys000                   Mon Nov 27 14:42 - 14:42  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 14:31 - 14:31  (00:00)
+huyhoang8398  ttys001                   Mon Nov 27 14:18 - 14:18  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 14:17 - 14:17  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 14:16 - 14:16  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 14:15 - 14:15  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 14:14 - 14:14  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 14:14 - 14:14  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 14:13 - 14:13  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 14:13 - 14:13  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 14:02 - 14:02  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 13:51 - 13:51  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 13:50 - 13:50  (00:00)
+huyhoang8398  console                   Mon Nov 27 13:50 - shutdown  (00:54)
+reboot    ~                         Mon Nov 27 13:49
+shutdown  ~                         Mon Nov 27 11:42
+huyhoang8398  ttys000                   Mon Nov 27 09:23 - 09:23  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 08:59 - 08:59  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 08:57 - 08:57  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 08:57 - 08:57  (00:00)
+huyhoang8398  ttys000                   Mon Nov 27 08:56 - 08:56  (00:00)
+huyhoang8398  console                   Mon Nov 27 08:47 - 11:42  (02:55)
+reboot    ~                         Mon Nov 27 08:46
+shutdown  ~                         Mon Nov 27 08:46
+huyhoang8398  console                   Mon Nov 27 08:43 - shutdown  (00:02)
+root      ttys000                   Mon Nov 27 08:43 - 08:43  (00:00)
+root      console                   Mon Nov 27 08:42 - 08:46  (00:04)
+huyhoang8398  console                   Mon Nov 27 08:30 - 08:42  (00:11)
+reboot    ~                         Mon Nov 27 08:29
+shutdown  ~                         Sun Nov 26 22:31
+huyhoang8398  console                   Sun Nov 26 04:15 - 22:31  (18:15)
+reboot    ~                         Sun Nov 26 04:14
+shutdown  ~                         Sun Nov 26 00:30
+huyhoang8398  ttys000                   Sat Nov 25 21:17 - 21:17  (00:00)
+huyhoang8398  ttys001                   Sat Nov 25 16:30 - 16:30  (00:00)
+huyhoang8398  ttys000                   Sat Nov 25 16:28 - 16:28  (00:00)
+huyhoang8398  ttys000                   Sat Nov 25 13:15 - 13:15  (00:00)
+huyhoang8398  console                   Sat Nov 25 13:09 - shutdown  (11:20)
+reboot    ~                         Sat Nov 25 13:09
+shutdown  ~                         Fri Nov 24 23:42
+huyhoang8398  ttys000                   Fri Nov 24 13:30 - 13:30  (00:00)
+huyhoang8398  console                   Fri Nov 24 13:26 - 23:42  (10:16)
+reboot    ~                         Fri Nov 24 13:25
+shutdown  ~                         Fri Nov 24 13:25
+huyhoang8398  console                   Fri Nov 24 13:23 - 13:25  (00:02)
+reboot    ~                         Fri Nov 24 13:23
+shutdown  ~                         Fri Nov 24 13:22
+huyhoang8398  ttys000                   Fri Nov 24 11:42 - 11:42  (00:00)
+huyhoang8398  ttys000                   Fri Nov 24 10:17 - 10:17  (00:00)
+huyhoang8398  ttys000                   Fri Nov 24 10:16 - 10:16  (00:00)
+huyhoang8398  ttys000                   Fri Nov 24 08:28 - 08:28  (00:00)
+huyhoang8398  console                   Fri Nov 24 08:20 - 13:22  (05:02)
+reboot    ~                         Fri Nov 24 08:19
+huyhoang8398  ttys000                   Thu Nov 23 20:51 - 20:51  (00:00)
+huyhoang8398  ttys001                   Thu Nov 23 20:49 - 20:49  (00:00)
+huyhoang8398  ttys000                   Thu Nov 23 20:49 - 20:49  (00:00)
+huyhoang8398  console                   Thu Nov 23 20:46 - 20:57  (00:11)
+reboot    ~                         Thu Nov 23 20:46
+shutdown  ~                         Thu Nov 23 20:45
+reboot    ~                         Thu Nov 23 20:44
+shutdown  ~                         Thu Nov 23 20:44
+huyhoang8398  ttys000                   Thu Nov 23 19:10 - 19:10  (00:00)
+huyhoang8398  ttys000                   Thu Nov 23 19:03 - 19:03  (00:00)
+huyhoang8398  ttys001                   Thu Nov 23 19:02 - 19:02  (00:00)
+huyhoang8398  ttys000                   Thu Nov 23 19:02 - 19:02  (00:00)
+huyhoang8398  ttys000                   Thu Nov 23 19:02 - 19:02  (00:00)
+huyhoang8398  ttys000                   Thu Nov 23 19:01 - 19:01  (00:00)
+huyhoang8398  ttys000                   Thu Nov 23 19:01 - 19:01  (00:00)
+huyhoang8398  ttys000                   Thu Nov 23 19:01 - 19:01  (00:00)
+huyhoang8398  ttys000                   Thu Nov 23 19:00 - 19:00  (00:00)
+huyhoang8398  ttys000                   Thu Nov 23 19:00 - 19:00  (00:00)
+huyhoang8398  ttys001                   Thu Nov 23 18:59 - 18:59  (00:00)
+huyhoang8398  ttys000                   Thu Nov 23 18:59 - 18:59  (00:00)
+huyhoang8398  ttys000                   Thu Nov 23 18:59 - 18:59  (00:00)
+huyhoang8398  ttys000                   Thu Nov 23 18:58 - 18:58  (00:00)
+huyhoang8398  console                   Thu Nov 23 18:56 - 20:44  (01:47)
+reboot    ~                         Thu Nov 23 18:56
+shutdown  ~                         Thu Nov 23 07:52
+huyhoang8398  console                   Wed Nov 22 19:06 - 07:52  (12:46)
+reboot    ~                         Wed Nov 22 19:06
+shutdown  ~                         Wed Nov 22 16:49
+huyhoang8398  ttys000                   Wed Nov 22 16:49 - 16:49  (00:00)
+huyhoang8398  ttys000                   Wed Nov 22 15:41 - 15:41  (00:00)
+huyhoang8398  console                   Wed Nov 22 08:38 - 16:49  (08:11)
+reboot    ~                         Wed Nov 22 08:36
+shutdown  ~                         Tue Nov 21 21:04
+huyhoang8398  ttys000                   Tue Nov 21 20:17 - 20:17  (00:00)
+huyhoang8398  ttys000                   Tue Nov 21 18:53 - 18:53  (00:00)
+huyhoang8398  console                   Tue Nov 21 18:52 - 21:04  (02:11)
+reboot    ~                         Tue Nov 21 18:52
+shutdown  ~                         Tue Nov 21 15:58
+huyhoang8398  ttys000                   Tue Nov 21 15:51 - 15:51  (00:00)
+huyhoang8398  ttys000                   Tue Nov 21 15:43 - 15:43  (00:00)
+huyhoang8398  ttys000                   Tue Nov 21 15:28 - 15:28  (00:00)
+huyhoang8398  ttys000                   Tue Nov 21 15:24 - 15:24  (00:00)
+huyhoang8398  ttys000                   Tue Nov 21 15:23 - 15:23  (00:00)
+huyhoang8398  ttys001                   Tue Nov 21 15:06 - 15:06  (00:00)
+huyhoang8398  ttys000                   Tue Nov 21 14:57 - 14:57  (00:00)
+huyhoang8398  ttys000                   Tue Nov 21 14:47 - 14:47  (00:00)
+huyhoang8398  ttys000                   Tue Nov 21 14:42 - 14:42  (00:00)
+huyhoang8398  ttys000                   Tue Nov 21 14:42 - 14:42  (00:00)
+huyhoang8398  ttys000                   Tue Nov 21 14:18 - 14:18  (00:00)
+huyhoang8398  ttys000                   Tue Nov 21 14:11 - 14:11  (00:00)
+huyhoang8398  ttys000                   Tue Nov 21 13:08 - 13:08  (00:00)
+huyhoang8398  ttys000                   Tue Nov 21 12:35 - 12:35  (00:00)
+huyhoang8398  console                   Tue Nov 21 12:34 - 15:58  (03:24)
+reboot    ~                         Tue Nov 21 12:34
+shutdown  ~                         Tue Nov 21 12:29
+huyhoang8398  console                   Tue Nov 21 12:08 - 12:29  (00:21)
+reboot    ~                         Tue Nov 21 12:03
+shutdown  ~                         Tue Nov 21 12:03
+huyhoang8398  ttys000                   Tue Nov 21 11:30 - 11:30  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 23:11 - 23:11  (00:00)
+huyhoang8398  console                   Mon Nov 20 17:36 - 12:03  (18:27)
+reboot    ~                         Mon Nov 20 17:35
+shutdown  ~                         Mon Nov 20 16:36
+huyhoang8398  console                   Mon Nov 20 16:34 - 16:36  (00:01)
+reboot    ~                         Mon Nov 20 16:33
+shutdown  ~                         Mon Nov 20 16:32
+huyhoang8398  ttys001                   Mon Nov 20 16:28 - 16:28  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 16:28 - 16:28  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 16:28 - 16:28  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 16:28 - 16:28  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 16:27 - 16:27  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 16:15 - 16:15  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 15:59 - 15:59  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 15:54 - 15:54  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 15:49 - 15:49  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 15:42 - 15:42  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 14:28 - 14:28  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 14:02 - 14:02  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 13:51 - 13:51  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 13:48 - 13:48  (00:00)
+huyhoang8398  console                   Mon Nov 20 13:28 - 16:32  (03:03)
+reboot    ~                         Mon Nov 20 13:28
+shutdown  ~                         Mon Nov 20 13:28
+huyhoang8398  ttys000                   Mon Nov 20 13:20 - 13:20  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 13:02 - 13:02  (00:00)
+huyhoang8398  ttys000                   Mon Nov 20 12:23 - 12:23  (00:00)
+huyhoang8398  console                   Mon Nov 20 10:01 - 13:28  (03:26)
+reboot    ~                         Mon Nov 20 10:01
+shutdown  ~                         Sun Nov 19 23:58
+huyhoang8398  ttys000                   Sun Nov 19 22:23 - 22:23  (00:00)
+huyhoang8398  ttys000                   Sun Nov 19 22:23 - 22:23  (00:00)
+huyhoang8398  ttys000                   Sun Nov 19 21:56 - 21:56  (00:00)
+huyhoang8398  ttys000                   Sun Nov 19 21:53 - 21:53  (00:00)
+huyhoang8398  ttys000                   Sun Nov 19 19:59 - 19:59  (00:00)
+huyhoang8398  ttys000                   Sun Nov 19 10:53 - 10:53  (00:00)
+huyhoang8398  ttys000                   Sat Nov 18 23:17 - 23:17  (00:00)
+huyhoang8398  console                   Sat Nov 18 18:53 - 23:58 (1+05:04)
+reboot    ~                         Sat Nov 18 18:53
+shutdown  ~                         Sat Nov 18 11:42
+huyhoang8398  ttys000                   Sat Nov 18 11:04 - 11:04  (00:00)
+huyhoang8398  console                   Fri Nov 17 19:45 - 11:42  (15:56)
+reboot    ~                         Fri Nov 17 19:45
+shutdown  ~                         Fri Nov 17 17:42
+huyhoang8398  ttys000                   Fri Nov 17 15:47 - 15:47  (00:00)
+huyhoang8398  console                   Fri Nov 17 14:11 - 17:42  (03:31)
+reboot    ~                         Fri Nov 17 14:10
+shutdown  ~                         Fri Nov 17 14:09
+huyhoang8398  console                   Fri Nov 17 13:30 - 14:09  (00:38)
+reboot    ~                         Fri Nov 17 13:30
+shutdown  ~                         Fri Nov 17 13:23
+huyhoang8398  console                   Fri Nov 17 10:39 - 13:23  (02:44)
+reboot    ~                         Fri Nov 17 10:39
+shutdown  ~                         Fri Nov 17 10:37
+huyhoang8398  ttys000                   Fri Nov 17 10:06 - 10:06  (00:00)
+huyhoang8398  ttys000                   Fri Nov 17 10:06 - 10:06  (00:00)
+huyhoang8398  console                   Fri Nov 17 09:56 - 10:37  (00:40)
+reboot    ~                         Fri Nov 17 09:56
+shutdown  ~                         Fri Nov 17 09:53
+huyhoang8398  ttys000                   Fri Nov 17 09:51 - 09:51  (00:00)
+huyhoang8398  console                   Fri Nov 17 08:33 - 09:53  (01:19)
+reboot    ~                         Fri Nov 17 08:33
+shutdown  ~                         Fri Nov 17 08:30
+huyhoang8398  ttys000                   Fri Nov 17 08:30 - 08:30  (00:00)
+huyhoang8398  console                   Fri Nov 17 08:29 - 08:30  (00:01)
+reboot    ~                         Fri Nov 17 08:29
+shutdown  ~                         Fri Nov 17 00:19
+huyhoang8398  ttys000                   Fri Nov 17 00:17 - 00:17  (00:00)
+huyhoang8398  console                   Thu Nov 16 23:44 - 00:19  (00:34)
+reboot    ~                         Thu Nov 16 23:44
+shutdown  ~                         Thu Nov 16 23:42
+reboot    ~                         Thu Nov 16 23:42
+shutdown  ~                         Thu Nov 16 23:41
+huyhoang8398  console                   Thu Nov 16 19:03 - 23:41  (04:37)
+reboot    ~                         Thu Nov 16 19:03
+shutdown  ~                         Thu Nov 16 17:08
+huyhoang8398  ttys000                   Thu Nov 16 14:59 - 14:59  (00:00)
+huyhoang8398  ttys000                   Thu Nov 16 11:49 - 11:49  (00:00)
+huyhoang8398  ttys000                   Thu Nov 16 11:49 - 11:49  (00:00)
+huyhoang8398  console                   Thu Nov 16 09:23 - 17:08  (07:45)
+reboot    ~                         Thu Nov 16 09:22
+shutdown  ~                         Wed Nov 15 22:07
+huyhoang8398  ttys000                   Wed Nov 15 10:49 - 10:49  (00:00)
+huyhoang8398  ttys000                   Wed Nov 15 09:19 - 09:19  (00:00)
+huyhoang8398  ttys000                   Wed Nov 15 09:16 - 09:16  (00:00)
+huyhoang8398  ttys000                   Wed Nov 15 09:07 - 09:07  (00:00)
+huyhoang8398  ttys000                   Wed Nov 15 09:03 - 09:03  (00:00)
+huyhoang8398  console                   Wed Nov 15 08:35 - 22:07  (13:32)
+reboot    ~                         Wed Nov 15 08:34
+shutdown  ~                         Wed Nov 15 00:16
+huyhoang8398  ttys000                   Tue Nov 14 22:48 - 22:48  (00:00)
+huyhoang8398  ttys000                   Tue Nov 14 21:11 - 21:11  (00:00)
+huyhoang8398  console                   Tue Nov 14 19:56 - 00:16  (04:19)
+reboot    ~                         Tue Nov 14 19:56
+shutdown  ~                         Tue Nov 14 18:11
+huyhoang8398  ttys000                   Tue Nov 14 15:45 - 15:45  (00:00)
+huyhoang8398  ttys000                   Tue Nov 14 15:41 - 15:41  (00:00)
+huyhoang8398  console                   Tue Nov 14 15:41 - 18:11  (02:30)
+reboot    ~                         Tue Nov 14 15:40
+shutdown  ~                         Tue Nov 14 15:40
+huyhoang8398  ttys000                   Tue Nov 14 15:27 - 15:27  (00:00)
+huyhoang8398  console                   Tue Nov 14 15:17 - 15:40  (00:22)
+reboot    ~                         Tue Nov 14 15:17
+shutdown  ~                         Tue Nov 14 15:13
+huyhoang8398  ttys000                   Tue Nov 14 15:13 - 15:13  (00:00)
+huyhoang8398  ttys000                   Tue Nov 14 15:06 - 15:06  (00:00)
+huyhoang8398  ttys000                   Tue Nov 14 15:04 - 15:04  (00:00)
+huyhoang8398  ttys000                   Tue Nov 14 14:08 - 14:08  (00:00)
+huyhoang8398  ttys000                   Tue Nov 14 14:01 - 14:01  (00:00)
+huyhoang8398  console                   Tue Nov 14 09:15 - 15:13  (05:58)
+reboot    ~                         Tue Nov 14 09:15
+shutdown  ~                         Tue Nov 14 00:56
+huyhoang8398  console                   Mon Nov 13 19:21 - 00:56  (05:34)
+reboot    ~                         Mon Nov 13 19:21
+shutdown  ~                         Mon Nov 13 18:18
+huyhoang8398  console                   Mon Nov 13 16:55 - 18:18  (01:22)
+reboot    ~                         Mon Nov 13 16:55
+shutdown  ~                         Mon Nov 13 11:46
+huyhoang8398  ttys000                   Mon Nov 13 11:42 - 11:42  (00:00)
+huyhoang8398  console                   Mon Nov 13 08:24 - 11:46  (03:22)
+reboot    ~                         Mon Nov 13 08:23
+shutdown  ~                         Mon Nov 13 07:28
+huyhoang8398  console                   Sun Nov 12 20:15 - 07:28  (11:13)
+reboot    ~                         Sun Nov 12 20:14
+huyhoang8398  console                   Sun Nov 12 13:21 - 16:00  (02:39)
+reboot    ~                         Sun Nov 12 13:21
+shutdown  ~                         Sun Nov 12 00:14
+huyhoang8398  ttys000                   Sat Nov 11 18:38 - 18:38  (00:00)
+huyhoang8398  ttys000                   Sat Nov 11 09:12 - 09:12  (00:00)
+huyhoang8398  console                   Sat Nov 11 08:44 - 00:14  (15:29)
+reboot    ~                         Sat Nov 11 08:44
+shutdown  ~                         Sat Nov 11 00:46
+huyhoang8398  ttys000                   Fri Nov 10 19:42 - 19:42  (00:00)
+huyhoang8398  console                   Fri Nov 10 19:19 - 00:46  (05:26)
+reboot    ~                         Fri Nov 10 19:15
+shutdown  ~                         Fri Nov 10 18:18
+huyhoang8398  console                   Fri Nov 10 18:07 - 18:18  (00:11)
+reboot    ~                         Fri Nov 10 18:06
+huyhoang8398  ttys000                   Fri Nov 10 15:24 - 15:24  (00:00)
+huyhoang8398  console                   Fri Nov 10 12:37 - 15:56  (03:18)
+reboot    ~                         Fri Nov 10 12:37
+shutdown  ~                         Fri Nov 10 12:18
+huyhoang8398  console                   Fri Nov 10 12:14 - 12:18  (00:03)
+reboot    ~                         Fri Nov 10 12:14
+shutdown  ~                         Fri Nov 10 12:14
+huyhoang8398  ttys000                   Fri Nov 10 09:49 - 09:49  (00:00)
+huyhoang8398  ttys001                   Fri Nov 10 09:36 - 09:36  (00:00)
+huyhoang8398  ttys000                   Fri Nov 10 09:33 - 09:33  (00:00)
+huyhoang8398  console                   Fri Nov 10 09:33 - 12:14  (02:40)
+reboot    ~                         Fri Nov 10 09:33
+shutdown  ~                         Thu Nov  9 23:32
+huyhoang8398  console                   Thu Nov  9 18:48 - 23:32  (04:44)
+reboot    ~                         Thu Nov  9 18:47
+shutdown  ~                         Thu Nov  9 17:24
+huyhoang8398  ttys000                   Thu Nov  9 16:59 - 16:59  (00:00)
+huyhoang8398  console                   Thu Nov  9 16:53 - 17:24  (00:31)
+reboot    ~                         Thu Nov  9 16:51
+shutdown  ~                         Thu Nov  9 16:51
+huyhoang8398  console                   Thu Nov  9 12:02 - 16:51  (04:48)
+reboot    ~                         Thu Nov  9 12:02
+shutdown  ~                         Thu Nov  9 09:21
+huyhoang8398  ttys000                   Thu Nov  9 08:27 - 08:27  (00:00)
+huyhoang8398  console                   Thu Nov  9 08:24 - 09:21  (00:57)
+reboot    ~                         Thu Nov  9 08:24
+shutdown  ~                         Wed Nov  8 18:14
+huyhoang8398  console                   Wed Nov  8 13:11 - 18:14  (05:03)
+reboot    ~                         Wed Nov  8 13:10
+shutdown  ~                         Wed Nov  8 12:02
+huyhoang8398  ttys000                   Wed Nov  8 09:27 - 09:27  (00:00)
+huyhoang8398  console                   Wed Nov  8 08:35 - 12:02  (03:27)
+reboot    ~                         Wed Nov  8 08:34
+shutdown  ~                         Wed Nov  8 01:09
+huyhoang8398  ttys000                   Tue Nov  7 19:37 - 19:37  (00:00)
+huyhoang8398  console                   Tue Nov  7 19:06 - 01:09  (06:03)
+reboot    ~                         Tue Nov  7 19:05
+shutdown  ~                         Tue Nov  7 18:08
+huyhoang8398  ttys000                   Tue Nov  7 16:35 - 16:35  (00:00)
+huyhoang8398  ttys000                   Tue Nov  7 16:15 - 16:15  (00:00)
+huyhoang8398  console                   Tue Nov  7 15:41 - 18:08  (02:27)
+reboot    ~                         Tue Nov  7 15:40
+shutdown  ~                         Mon Nov  6 23:43
+huyhoang8398  ttys000                   Mon Nov  6 19:21 - 19:21  (00:00)
+huyhoang8398  console                   Mon Nov  6 19:21 - 23:43  (04:22)
+reboot    ~                         Mon Nov  6 19:21
+shutdown  ~                         Mon Nov  6 11:42
+huyhoang8398  ttys000                   Mon Nov  6 11:22 - 11:22  (00:00)
+huyhoang8398  ttys000                   Mon Nov  6 08:55 - 08:55  (00:00)
+huyhoang8398  console                   Mon Nov  6 08:43 - 11:42  (02:58)
+reboot    ~                         Mon Nov  6 08:43
+shutdown  ~                         Mon Nov  6 08:43
+huyhoang8398  console                   Mon Nov  6 08:41 - 08:43  (00:01)
+reboot    ~                         Mon Nov  6 08:40
+shutdown  ~                         Sun Nov  5 23:46
+huyhoang8398  console                   Sun Nov  5 18:55 - 23:46  (04:51)
+reboot    ~                         Sun Nov  5 18:54
+shutdown  ~                         Sun Nov  5 15:16
+huyhoang8398  ttys000                   Sun Nov  5 14:49 - 14:49  (00:00)
+huyhoang8398  console                   Sun Nov  5 10:57 - 15:16  (04:19)
+reboot    ~                         Sun Nov  5 10:57
+shutdown  ~                         Sun Nov  5 02:31
+huyhoang8398  ttys000                   Sat Nov  4 22:52 - 22:52  (00:00)
+huyhoang8398  ttys000                   Sat Nov  4 22:51 - 22:51  (00:00)
+huyhoang8398  console                   Sat Nov  4 22:40 - 02:31  (03:50)
+reboot    ~                         Sat Nov  4 22:39
+shutdown  ~                         Sat Nov  4 21:33
+huyhoang8398  ttys000                   Sat Nov  4 19:35 - 19:35  (00:00)
+huyhoang8398  ttys000                   Sat Nov  4 17:53 - 17:53  (00:00)
+huyhoang8398  console                   Sat Nov  4 17:48 - 21:33  (03:45)
+reboot    ~                         Sat Nov  4 17:47
+shutdown  ~                         Sat Nov  4 16:57
+huyhoang8398  ttys000                   Sat Nov  4 16:57 - 16:57  (00:00)
+huyhoang8398  ttys001                   Sat Nov  4 16:50 - 16:50  (00:00)
+huyhoang8398  ttys000                   Sat Nov  4 16:49 - 16:49  (00:00)
+huyhoang8398  ttys000                   Sat Nov  4 16:43 - 16:43  (00:00)
+huyhoang8398  console                   Sat Nov  4 14:34 - 16:57  (02:22)
+reboot    ~                         Sat Nov  4 14:33
+shutdown  ~                         Sat Nov  4 13:04
+huyhoang8398  console                   Sat Nov  4 12:15 - 13:04  (00:49)
+reboot    ~                         Sat Nov  4 12:15
+shutdown  ~                         Sat Nov  4 09:12
+huyhoang8398  ttys000                   Sat Nov  4 09:08 - 09:08  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 20:02 - 20:02  (00:00)
+huyhoang8398  console                   Fri Nov  3 19:42 - 09:12  (13:29)
+reboot    ~                         Fri Nov  3 19:42
+shutdown  ~                         Fri Nov  3 18:29
+huyhoang8398  ttys001                   Fri Nov  3 18:23 - 18:23  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 18:15 - 18:15  (00:00)
+huyhoang8398  console                   Fri Nov  3 18:14 - 18:29  (00:15)
+reboot    ~                         Fri Nov  3 18:14
+shutdown  ~                         Fri Nov  3 18:02
+huyhoang8398  ttys001                   Fri Nov  3 17:40 - 17:40  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 17:40 - 17:40  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 17:18 - 17:18  (00:00)
+huyhoang8398  ttys003                   Fri Nov  3 17:17 - 17:17  (00:00)
+huyhoang8398  ttys002                   Fri Nov  3 17:17 - 17:17  (00:00)
+huyhoang8398  ttys001                   Fri Nov  3 17:17 - 17:17  (00:00)
+huyhoang8398  ttys001                   Fri Nov  3 17:16 - 17:16  (00:00)
+huyhoang8398  ttys001                   Fri Nov  3 17:16 - 17:16  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 17:15 - 17:15  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 17:00 - 17:00  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 16:53 - 16:53  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 16:53 - 16:53  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 14:37 - 14:37  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 14:27 - 14:27  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 14:07 - 14:07  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 14:07 - 14:07  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 14:06 - 14:06  (00:00)
+huyhoang8398  ttys001                   Fri Nov  3 14:06 - 14:06  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 14:06 - 14:06  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 13:59 - 13:59  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 13:22 - 13:22  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 12:04 - 12:04  (00:00)
+huyhoang8398  console                   Fri Nov  3 11:54 - 18:02  (06:07)
+reboot    ~                         Fri Nov  3 11:54
+shutdown  ~                         Fri Nov  3 11:54
+huyhoang8398  ttys000                   Fri Nov  3 11:52 - 11:52  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 11:30 - 11:30  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 11:28 - 11:28  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 11:12 - 11:12  (00:00)
+huyhoang8398  ttys001                   Fri Nov  3 11:10 - 11:10  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 11:06 - 11:06  (00:00)
+huyhoang8398  ttys000                   Fri Nov  3 10:58 - 10:58  (00:00)
+huyhoang8398  console                   Fri Nov  3 10:34 - 11:54  (01:20)
+reboot    ~                         Fri Nov  3 10:33
+shutdown  ~                         Fri Nov  3 10:32
+reboot    ~                         Fri Nov  3 10:31
+shutdown  ~                         Fri Nov  3 10:31
+huyhoang8398  console                   Fri Nov  3 10:18 - 10:31  (00:12)
+reboot    ~                         Fri Nov  3 10:18
+shutdown  ~                         Thu Nov  2 23:51
+huyhoang8398  ttys000                   Thu Nov  2 23:47 - 23:47  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 23:23 - 23:23  (00:00)
+huyhoang8398  console                   Thu Nov  2 21:20 - 23:51  (02:30)
+reboot    ~                         Thu Nov  2 21:20
+huyhoang8398  console                   Thu Nov  2 20:03 - 20:11  (00:07)
+reboot    ~                         Thu Nov  2 20:03
+shutdown  ~                         Thu Nov  2 19:20
+huyhoang8398  ttys000                   Thu Nov  2 14:43 - 14:43  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 14:43 - 14:43  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 14:36 - 14:36  (00:00)
+huyhoang8398  console                   Thu Nov  2 14:35 - 19:20  (04:44)
+reboot    ~                         Thu Nov  2 14:35
+shutdown  ~                         Thu Nov  2 14:29
+huyhoang8398  ttys000                   Thu Nov  2 14:23 - 14:23  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 14:18 - 14:18  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 12:06 - 12:06  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 12:03 - 12:03  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 12:02 - 12:02  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 11:59 - 11:59  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 11:59 - 11:59  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 11:57 - 11:57  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 10:52 - 10:52  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 10:36 - 10:36  (00:00)
+huyhoang8398  console                   Thu Nov  2 10:05 - 14:29  (04:23)
+reboot    ~                         Thu Nov  2 10:05
+shutdown  ~                         Thu Nov  2 03:01
+huyhoang8398  ttys000                   Thu Nov  2 00:52 - 00:52  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 00:52 - 00:52  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 00:52 - 00:52  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 00:51 - 00:51  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 00:41 - 00:41  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 00:41 - 00:41  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 00:08 - 00:08  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 00:07 - 00:07  (00:00)
+huyhoang8398  ttys000                   Thu Nov  2 00:06 - 00:06  (00:00)
+huyhoang8398  ttys001                   Thu Nov  2 00:02 - 00:02  (00:00)
+huyhoang8398  ttys000                   Wed Nov  1 23:57 - 23:57  (00:00)
+huyhoang8398  ttys000                   Wed Nov  1 22:39 - 22:39  (00:00)
+huyhoang8398  ttys000                   Wed Nov  1 22:24 - 22:24  (00:00)
+huyhoang8398  ttys000                   Wed Nov  1 22:15 - 22:15  (00:00)
+huyhoang8398  console                   Wed Nov  1 22:03 - 03:01  (04:58)
+reboot    ~                         Wed Nov  1 22:02
+shutdown  ~                         Wed Nov  1 22:02
+huyhoang8398  ttys000                   Wed Nov  1 21:59 - 21:59  (00:00)
+huyhoang8398  ttys000                   Wed Nov  1 21:27 - 21:27  (00:00)
+huyhoang8398  ttys000                   Wed Nov  1 21:23 - 21:23  (00:00)
+huyhoang8398  ttys000                   Wed Nov  1 21:06 - 21:06  (00:00)
+huyhoang8398  ttys000                   Wed Nov  1 20:57 - 20:57  (00:00)
+huyhoang8398  ttys000                   Wed Nov  1 20:23 - 20:23  (00:00)
+huyhoang8398  console                   Wed Nov  1 20:00 - 22:02  (02:02)
+reboot    ~                         Wed Nov  1 19:59
+
+wtmp begins Wed Nov  1 19:59
+
+13. finger
+Login    Name                 TTY  Idle  Login  Time   Office  Phone
+huyhoang8398 huyhoang8398        *con 19:11  Thu    15:41
+huyhoang8398 huyhoang8398         s00     9  Fri    10:39
+huyhoang8398 huyhoang8398         s00        Fri    10:39
+huyhoang8398 huyhoang8398         s00     8  Fri    10:44
+huyhoang8398 huyhoang8398         s00        Fri    10:46
+
+14. w
+10:53  up 19:14, 5 users, load averages: 2.51 2.00 2.00
+USER     TTY      FROM              LOGIN@  IDLE WHAT
+huyhoang8398 console  -                Thu15   19:11 -
+huyhoang8398 s000     -                10:39       9 zsh
+huyhoang8398 s001     -                10:39       - vim 01.report.shell.commands.txt
+huyhoang8398 s002     -                10:44       8 -zsh
+huyhoang8398 s003     -                10:46       - w
+
+15. passwd
