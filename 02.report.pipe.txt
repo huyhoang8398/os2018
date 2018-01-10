@@ -1,0 +1,20 @@
+1. 	ls | grep "list"
+no output
+ 
+2. 	wc -l /etc/passwd
+output:
+108     294    6774 /etc/passwd
+
+3. 	system_profiler SPHardwareDataType | grep "  Memory:"
+Memory: 16 GB
+	top -l 1 -s 0 | grep PhysMem
+PhysMem: 7036M used (2118M wired), 9346M unused.
+
+
+4. 	sysctl -n hw.ncpu
+Output: 8
+
+5. 	find /Users/huyhoang8398/Pictures | grep .jpg | wc -l
+Output: 16
+
+
