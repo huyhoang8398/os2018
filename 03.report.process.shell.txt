@@ -1,0 +1,20 @@
+1. 	ps -f
+  UID   PID  PPID   C STIME   TTY           TIME CMD
+  501  9479  8693   0  9:48PM ttys001    0:00.02 /Applications/iTerm.app/Contents/MacOS/iTerm2 --server login -fp huyhoang8398
+  501  9481  9480   0  9:48PM ttys001    0:00.88 -zsh
+  501  9766  9765   0  9:58PM ttys001    0:03.64 zsh
+
+2. 	ps aux | grep Sublime\ Text
+huyhoang8398       949   0.0  0.2  4375456  36920   ??  S     1:06PM   0:00.70 /Applications/Sublime Text.app/Contents/MacOS/plugin_host 936
+huyhoang8398       936   0.0  0.6  4658228  95172   ??  S     1:06PM   0:03.17 /Applications/Sublime Text.app/Contents/MacOS/Sublime Text -psn_0_245820
+huyhoang8398      1430   0.0  0.0  4267768    876 s000  R+    1:19PM   0:00.00 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn Sublime Text
+
+3.	kill -STOP 936
+No output
+
+4. kill -CONT 936
+No output
+
+5. kill -KILL 936
+No output
+
