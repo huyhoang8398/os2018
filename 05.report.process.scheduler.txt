@@ -1,0 +1,13 @@
+1/	~$ grep systemd /proc/sched_debug
+
+ S systemd-logind   351       108.763327     16665   120         0.000000       329.494813         0.000000 0 0 /autogroup-30
+ S        systemd   412        11.358549        57   120         0.000000        20.764003         0.000000 0 0 /autogroup-39
+ S        systemd     1       260.935541     91854   120         0.000000      2378.243825         0.000000 0 0 /autogroup-2
+ Ssystemd-journal   226        32.752474      1127   120         0.000000       312.026915         0.000000 0 0 /autogroup-7
+ S  systemd-udevd   236       352.259076       614   120         0.000000       183.099899         0.000000 0 0 /autogroup-14
+
+
+2/	grep switch /proc/1/sched 
+nr_switches                                  :                92211
+nr_voluntary_switches                        :                92071
+nr_involuntary_switches                      :                  140
