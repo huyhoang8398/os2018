@@ -1,0 +1,10 @@
+1.	ps -e | grep firefox
+Output: 1690 ?	00:00:26 firefox
+
+
+2.	ps -o nlwp 1690
+Output:	NLWP
+ 	64
+
+3.	ls /proc/1690/task | wc -l
+Output : 69
